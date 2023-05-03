@@ -3,6 +3,7 @@ const app = express();
 const cors = require('cors');
 const port = process.env.PORT || 5000;
 const chefs = require('./data/chef.json')
+const blog = require('./data/blog.json')
 
 app.use(cors());
 
@@ -20,6 +21,10 @@ app.get('/chefs/:id', (req, res) => {
   const selectedChef = chefs.find(c => c.chef_id === id);
   res.send(selectedChef);
 })
+
+app.get('/blog', (req, res) => {
+  res.send(blog);
+});
 
 app.listen(port, () => {
   console.log(`the oriental kitchen is running on ${port}`)

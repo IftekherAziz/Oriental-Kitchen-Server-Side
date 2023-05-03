@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/RGnfGYG/joshua-aragon-FGXqbqb-Gt5o-unsplash.jpg",
+    "question": "Tell us the differences between uncontrolled and controlled components.",
+    "answer": "In React, controlled components are components that are tightly controlled by React and their state is managed by React. On the other hand, uncontrolled components are components where the state is managed by the DOM, and React only interacts with the component through the use of refs."
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/SVRpH7k/lautaro-andreani-xk-Baqlcqeb4-unsplash.jpg",
+    "question": "How to validate React props using PropTypes?",
+    "answer": "PropTypes is a package that allows you to validate the types of props passed to React components. You can import PropTypes from the 'prop-types' package and use it to define the expected types of your component props. For example, PropTypes.string will check that the prop is a string. You can use PropTypes in your component definition, like this: MyComponent.propTypes = { myProp: PropTypes.string.isRequired };"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/ZHzd6Rb/safar-safarov-MSN8-TFh-J0is-unsplash.jpg",
+    "question": "Tell us the difference between nodejs and express js.",
+    "answer": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows you to execute JavaScript code outside of the browser, making it ideal for building server-side applications. Express.js, on the other hand, is a web application framework that runs on top of Node.js. It provides a set of tools and features for building web applications, such as routing, middleware, and template engines."
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/XF8JLgD/juanjo-jaramillo-m-Znx9429i94-unsplash.jpg",
+    "question": "What is a custom hook, and why will you create a custom hook?",
+    "answer": "A custom hook is a function that uses the built-in hooks in React to provide reusable logic to your application. Custom hooks allow you to encapsulate complex logic and reuse it across multiple components. You might create a custom hook to simplify the logic of a specific feature or to share stateful logic between multiple components. For example, you could create a usePagination hook that manages the state and logic for paginating data, which can be reused in multiple components."
+  }
+]
