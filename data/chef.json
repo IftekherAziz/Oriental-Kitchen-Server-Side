@@ -1,296 +1,342 @@
 [
   {
-    "id": 1,
-    "chef_picture": "https://example.com/chef1.jpg",
-    "chef_name": "Alice Smith",
-    "years_of_experience": 10,
-    "likes": 500,
-    "short_bio": "Award-winning chef with a passion for sustainable cooking.",
-    "number_of_recepies": 100,
-    "recipes": [
-      {
-        "recipe_name": "Quinoa Salad",
-        "ingredients": [
-          "quinoa",
-          "cherry tomatoes",
-          "cucumber",
-          "feta cheese",
-          "red onion"
-        ],
-        "cooking_method": "1. Rinse the quinoa and cook in boiling salted water for 15 minutes. 2. Cut the cherry tomatoes and cucumber into bite-sized pieces. 3. Combine the cooked quinoa, cherry tomatoes, cucumber, feta cheese, and red onion in a large bowl. 4. Toss well and serve chilled.",
-        "rating": 4.5
-      },
-      {
-        "recipe_name": "Roasted Root Vegetables",
-        "ingredients": [
-          "carrots",
-          "parsnips",
-          "sweet potatoes",
-          "olive oil",
-          "salt"
-        ],
-        "cooking_method": "1. Preheat the oven to 400°F. 2. Peel and chop the carrots, parsnips, and sweet potatoes into bite-sized pieces. 3. Toss the vegetables with olive oil and salt in a large bowl. 4. Spread the vegetables on a baking sheet and roast for 30-40 minutes, until tender and lightly browned.",
-        "rating": 4.2
-      },
-      {
-        "recipe_name": "Lemon Garlic Shrimp",
-        "ingredients": ["shrimp", "lemon", "garlic", "olive oil", "salt"],
-        "cooking_method": "1. Peel and devein the shrimp. 2. In a large skillet, heat olive oil over medium-high heat. 3. Add minced garlic and cook for 1 minute, until fragrant. 4. Add the shrimp to the skillet and cook for 2-3 minutes per side, until pink and cooked through. 5. Squeeze fresh lemon juice over the shrimp and sprinkle with salt to taste.",
-        "rating": 4.8
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "chef_picture": "https://example.com/chef2.jpg",
-    "chef_name": "John Johnson",
-    "years_of_experience": 5,
-    "likes": 200,
-    "short_bio": "Innovative chef specializing in fusion cuisine.",
-    "number_of_recepies": 50,
-    "recipes": [
-      {
-        "recipe_name": "Korean Fried Chicken",
-        "ingredients": [
-          "chicken wings",
-          "flour",
-          "cornstarch",
-          "salt",
-          "gochujang"
-        ],
-        "cooking_method": "1. Preheat the oven to 400°F. 2. In a large bowl, mix together flour, cornstarch, and salt. 3. Dredge the chicken wings in the flour mixture and shake off the excess. 4. Bake the chicken wings for 25-30 minutes, until crispy and cooked through. 5. In a small bowl, mix together gochujang and honey. 6. Toss the baked chicken wings in the gochujang mixture until coated.",
-        "rating": 4.7
-      },
-      {
-        "recipe_name": "Sushi Roll",
-        "ingredients": [
-          "sushi rice",
-          "nori sheets",
-          "avocado",
-          "cucumber",
-          "carrots"
-        ],
-        "cooking_method": "1. Cook sushi rice according to package instructions. 2. Place a sheet of nori on a bamboo sushi mat. 3. Spread a thin layer of rice over the nori, leaving a 1-inch border at the top. 4. Add sliced avocado, cucumber, and carrots in a line down the center of the rice. 5. Use the bamboo mat to roll the sushi tightly, using the border of rice at the top to seal the roll. 6. Slice the sushi into rounds and serve with soy sauce and wasabi.",
-        "rating": 4.5
-      },
-      {
-        "recipe_name": "Pesto Pasta",
-        "ingredients": [
-          "pasta",
-          "basil",
-          "garlic",
-          "parmesan cheese",
-          "pine nuts"
-        ],
-        "cooking_method": "1. Cook pasta according to package instructions. 2. In a food processor, combine basil, garlic, parmesan cheese, and pine nuts. 3. Process until finely chopped. 4. With the processor running, slowly pour in olive oil until the mixture forms a smooth paste. 5. Toss the cooked pasta with the pesto sauce until coated. 6. Serve hot with extra parmesan cheese.",
-        "rating": 4.8
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "chef_picture": "https://example.com/chef3.jpg",
-    "chef_name": "Emily Wong",
+    "chef_id": 1,
+    "chef_name": "Chef John",
     "years_of_experience": 15,
-    "likes": 800,
-    "short_bio": "Expert in regional Chinese cuisine.",
-    "number_of_recepies": 200,
+    "num_of_recipes": 100,
+    "likes": 5000,
+    "chef_picture": "https://i.ibb.co/qpcmrBM/John.jpg",
     "recipes": [
       {
-        "recipe_name": "Mapo Tofu",
+        "recipe_id": 1,
+        "recipe_url": "https://i.ibb.co/ysT17q2/Classic-Lasagna.jpg",
+        "recipe_name": "Classic Lasagna",
         "ingredients": [
-          "tofu",
-          "ground pork",
-          "garlic",
-          "ginger",
-          "green onions",
-          "Sichuan peppercorns"
+          "Lasagna noodles",
+          "Ground beef",
+          "Tomato sauce",
+          "Ricotta cheese",
+          "Mozzarella cheese"
         ],
-        "cooking_method": "1. Heat oil in a wok or large skillet over medium heat. 2. Add garlic, ginger, and Sichuan peppercorns and stir-fry for 30 seconds. 3. Add ground pork and cook until browned. 4. Add fermented black beans, chili bean paste, and chicken broth. 5. Add diced tofu and cook until heated through. 6. Thicken the sauce with cornstarch slurry. 7. Garnish with green onions and serve over rice.",
-        "rating": 4.9
-      },
-      {
-        "recipe_name": "Kung Pao Chicken",
-        "ingredients": [
-          "chicken breast",
-          "cornstarch",
-          "soy sauce",
-          "rice vinegar",
-          "hoisin sauce",
-          "dried red chili peppers"
-        ],
-        "cooking_method": "1. Cut chicken breast into small pieces and coat with cornstarch. 2. Heat oil in a wok or large skillet over high heat. 3. Add dried red chili peppers and stir-fry for 30 seconds. 4. Add chicken and stir-fry until browned. 5. Add soy sauce, rice vinegar, hoisin sauce, and sugar. 6. Cook until the sauce thickens. 7. Garnish with chopped peanuts and green onions and serve over rice.",
-        "rating": 4.7
-      },
-      {
-        "recipe_name": "Steamed Fish",
-        "ingredients": [
-          "whole fish",
-          "ginger",
-          "green onions",
-          "soy sauce",
-          "rice wine",
-          "sesame oil"
-        ],
-        "cooking_method": "1. Clean and scale the whole fish. 2. Cut a few slits into the fish and stuff with ginger and green onions. 3. Place the fish in a steamer basket and steam for 10-12 minutes. 4. Heat soy sauce, rice wine, and sesame oil in a small saucepan. 5. Pour the sauce over the steamed fish. 6. Garnish with chopped cilantro and serve hot.",
+        "cooking_method": "1. Cook noodles. 2. Brown beef. 3. Combine sauce and beef. 4. Layer noodles, sauce, and cheese. 5. Bake.",
         "rating": 4.8
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "chef_picture": "https://example.com/chef4.jpg",
-    "chef_name": "David Lee",
-    "years_of_experience": 20,
-    "likes": 1000,
-    "short_bio": "Master chef trained in French and Italian culinary techniques.",
-    "number_of_recepies": 300,
-    "recipes": [
-      {
-        "recipe_name": "Coq Au Vin",
-        "ingredients": [
-          "chicken thighs",
-          "bacon",
-          "pearl onions",
-          "carrots",
-          "mushrooms",
-          "red wine"
-        ],
-        "cooking_method": "1. Preheat oven to 350°F. 2. Brown bacon in a large Dutch oven or ovenproof pot over medium-high heat. 3. Remove bacon and set aside. 4. Season chicken thighs with salt and pepper and brown in the bacon fat. 5. Remove chicken and set aside. 6. Add pearl onions, carrots, and mushrooms to the pot and cook until lightly browned. 7. Add red wine, chicken broth, and thyme. 8. Return chicken and bacon to the pot. 9. Cover and bake for 1 hour, or until chicken is cooked through.",
-        "rating": 4.9
       },
       {
-        "recipe_name": "Spaghetti Carbonara",
+        "recipe_id": 2,
+        "recipe_url": "https://i.ibb.co/hLk3hyc/Beef-Wellington.jpg",
+        "recipe_name": "Beef Wellington",
         "ingredients": [
-          "spaghetti",
-          "pancetta",
-          "eggs",
-          "Parmesan cheese",
-          "garlic",
-          "black pepper"
+          "Beef tenderloin",
+          "Mushrooms",
+          "Puff pastry",
+          "Egg wash",
+          "Salt and pepper"
         ],
-        "cooking_method": "1. Cook spaghetti in a large pot of salted boiling water until al dente. 2. In a large skillet, cook pancetta until crisp. 3. Add garlic and cook for 1 minute. 4. In a small bowl, beat eggs and Parmesan cheese together. 5. Drain spaghetti and add to the skillet with pancetta. 6. Remove from heat and pour egg mixture over spaghetti. 7. Toss until the spaghetti is coated in the egg mixture. 8. Season with black pepper and serve immediately.",
-        "rating": 4.7
-      },
-      {
-        "recipe_name": "Beef Bourguignon",
-        "ingredients": [
-          "beef chuck",
-          "bacon",
-          "carrots",
-          "onions",
-          "red wine",
-          "beef broth"
-        ],
-        "cooking_method": "1. Preheat oven to 350°F. 2. Cut beef chuck into 2-inch pieces and season with salt and pepper. 3. Brown bacon in a large Dutch oven or ovenproof pot over medium-high heat. 4. Remove bacon and set aside. 5. Brown beef in the bacon fat. 6. Remove beef and set aside. 7. Add carrots and onions to the pot and cook until lightly browned. 8. Add red wine, beef broth, and thyme. 9. Return beef and bacon to the pot. 10. Cover and bake for 2-3 hours, or until beef is tender.",
-        "rating": 4.8
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "chef_picture": "https://example.com/chef5.jpg",
-    "chef_name": "Karen Martinez",
-    "years_of_experience": 8,
-    "likes": 400,
-    "short_bio": "Latin-inspired chef with a focus on bold flavors.",
-    "number_of_recepies": 75,
-    "recipes": [
-      {
-        "recipe_name": "Arroz Con Pollo",
-        "ingredients": [
-          "chicken thighs",
-          "long-grain white rice",
-          "onion",
-          "garlic",
-          "tomato sauce",
-          "chicken broth"
-        ],
-        "cooking_method": "1. Preheat oven to 375°F. 2. Brown chicken thighs in a large oven-safe skillet. 3. Remove chicken and set aside. 4. Add onion and garlic to the skillet and cook until softened. 5. Add tomato sauce, chicken broth, and rice to the skillet. 6. Nestle the chicken thighs into the rice mixture. 7. Cover and bake for 45-50 minutes, or until rice is cooked and chicken is cooked through.",
+        "cooking_method": "1. Season and sear beef. 2. Saute mushrooms. 3. Wrap beef and mushrooms in puff pastry. 4. Brush with egg wash. 5. Bake.",
         "rating": 4.5
       },
       {
-        "recipe_name": "Ceviche",
+        "recipe_id": 3,
+        "recipe_url": "https://i.ibb.co/CKSVSPm/Chicken-Parmesan.webp",
+        "recipe_name": "Chicken Parmesan",
         "ingredients": [
-          "raw shrimp",
-          "lime juice",
-          "red onion",
-          "tomatoes",
-          "cilantro",
-          "jalapeno"
+          "Chicken breasts",
+          "Breadcrumbs",
+          "Tomato sauce",
+          "Mozzarella cheese",
+          "Parmesan cheese"
         ],
-        "cooking_method": "1. Combine raw shrimp and lime juice in a large bowl. 2. Cover and refrigerate for 30 minutes to 1 hour, or until the shrimp are cooked through. 3. Add diced red onion, chopped tomatoes, chopped cilantro, and diced jalapeno to the bowl. 4. Toss to combine. 5. Serve chilled with tortilla chips.",
-        "rating": 4.8
-      },
-      {
-        "recipe_name": "Empanadas",
-        "ingredients": [
-          "ground beef",
-          "onion",
-          "red bell pepper",
-          "cumin",
-          "paprika",
-          "puff pastry"
-        ],
-        "cooking_method": "1. Preheat oven to 375°F. 2. Brown ground beef in a large skillet. 3. Add onion and red bell pepper to the skillet and cook until softened. 4. Add cumin, paprika, salt, and pepper to the skillet and stir to combine. 5. Roll out puff pastry and cut into 4-inch circles. 6. Spoon the ground beef mixture onto each circle of pastry. 7. Fold the pastry over to create a half-moon shape. 8. Use a fork to press the edges of the pastry together to seal. 9. Bake for 20-25 minutes, or until pastry is golden brown.",
-        "rating": 4.6
+        "cooking_method": "1. Coat chicken in breadcrumbs. 2. Brown chicken. 3. Top with sauce and cheese. 4. Bake.",
+        "rating": 4.7
       }
     ]
   },
   {
-    "id": 6,
-    "chef_picture": "https://example.com/chef6.jpg",
-    "chef_name": "Michael Nguyen",
-    "years_of_experience": 12,
-    "likes": 600,
-    "short_bio": "In-demand chef specializing in farm-to-table cuisine.",
-    "number_of_recepies": 150,
+    "chef_id": 2,
+    "chef_name": "Chef Maria",
+    "years_of_experience": 10,
+    "num_of_recipes": 80,
+    "likes": 3500,
+    "chef_picture": "https://i.ibb.co/ZcSFCDr/Chef-Maria.webp",
     "recipes": [
       {
-        "name": "Grilled Ribeye Steak",
+        "recipe_id": 4,
+        "recipe_url": "https://i.ibb.co/sVWCQzw/Roasted-Garlic-Mashed-Potatoes.jpg",
+        "recipe_name": "Roasted Garlic Mashed Potatoes",
         "ingredients": [
-          "1 1/2 lb ribeye steak",
-          "2 tbsp olive oil",
-          "1 tsp garlic powder",
-          "1 tsp dried rosemary",
-          "1/2 tsp salt",
-          "1/2 tsp black pepper"
+          "Potatoes",
+          "Butter",
+          "Milk",
+          "Garlic",
+          "Salt and pepper"
         ],
-        "cooking_method": "Preheat grill to high heat. Brush steak with olive oil and season with garlic powder, rosemary, salt, and pepper. Grill for 5-6 minutes on each side for medium-rare. Let rest for 5 minutes before slicing and serving.",
-        "rating": 4.8
-      },
-      {
-        "name": "Pesto Pasta with Roasted Vegetables",
-        "ingredients": [
-          "1 lb pasta",
-          "1 cup basil pesto",
-          "1 red bell pepper, sliced",
-          "1 yellow squash, sliced",
-          "1 zucchini, sliced",
-          "1 red onion, sliced",
-          "1/4 cup grated Parmesan cheese"
-        ],
-        "cooking_method": "Preheat oven to 400°F. Toss sliced vegetables with olive oil and season with salt and pepper. Roast for 20-25 minutes, stirring occasionally, until tender and lightly browned. Cook pasta according to package directions. Drain and toss with pesto. Serve topped with roasted vegetables and grated Parmesan cheese.",
+        "cooking_method": "1. Roast garlic. 2. Boil and mash potatoes. 3. Add butter, milk, and garlic. 4. Season to taste.",
         "rating": 4.6
       },
       {
-        "name": "Grilled Salmon with Avocado Salsa",
+        "recipe_id": 5,
+        "recipe_url": "https://i.ibb.co/MBTBnyL/Spinach-and-Feta-Stuffed-Chicken.webp",
+        "recipe_name": "Spinach and Feta Stuffed Chicken",
         "ingredients": [
-          "4 salmon fillets",
-          "2 tbsp olive oil",
-          "1 tsp cumin",
-          "1/2 tsp chili powder",
-          "1/2 tsp garlic powder",
-          "1 avocado, diced",
-          "1/2 cup cherry tomatoes, halved",
-          "1/4 cup red onion, diced",
-          "1 tbsp lime juice",
-          "1 tbsp chopped cilantro"
+          "Chicken breasts",
+          "Spinach",
+          "Feta cheese",
+          "Garlic",
+          "Salt and pepper"
         ],
-        "cooking_method": "Preheat grill to medium-high heat. Brush salmon with olive oil and season with cumin, chili powder, and garlic powder. Grill for 4-5 minutes on each side until cooked through. In a separate bowl, mix together diced avocado, cherry tomatoes, red onion, lime juice, and cilantro to make the salsa. Serve salmon topped with avocado salsa.",
+        "cooking_method": "1. Stuff chicken with spinach and feta. 2. Season chicken. 3. Bake.",
+        "rating": 4.4
+      },
+      {
+        "recipe_id": 6,
+        "recipe_url": "https://i.ibb.co/BVXdvGJ/Pesto-Pasta-Salad.jpg",
+        "recipe_name": "Pesto Pasta Salad",
+        "ingredients": [
+          "Pasta",
+          "Pesto sauce",
+          "Cherry tomatoes",
+          "Mozzarella cheese",
+          "Olives"
+        ],
+        "cooking_method": "1. Cook pasta. 2. Combine with pesto sauce, tomatoes, cheese, and olives. 3. Toss together and serve hot or cold",
+        "rating": 4.4
+      }
+    ]
+  },
+  {
+    "chef_id": 3,
+    "chef_name": "Gordon Ramsay",
+    "years_of_experience": 30,
+    "num_of_recipes": 200,
+    "likes": 10000,
+    "chef_picture": "https://i.ibb.co/zFn4NZc/Gordon-Ramsay.jpg",
+    "recipes": [
+      {
+        "recipe_id": 7,
+        "recipe_url": "https://i.ibb.co/NTQvPGJ/New-York-Strip-Steak-with-Red-Wine-Sauce.jpg",
+        "recipe_name": "New York Strip Steak with Red Wine Sauce",
+        "ingredients": [
+          "New York strip steak",
+          "Salt and pepper",
+          "Olive oil",
+          "Butter",
+          "Garlic",
+          "Thyme",
+          "Red wine",
+          "Beef stock"
+        ],
+        "cooking_method": "1. Season steak with salt and pepper. 2. Heat olive oil and butter in a skillet. 3. Add garlic and thyme. 4. Add steak and cook until desired doneness. 5. Remove steak from skillet and let rest. 6. Add red wine to skillet and reduce. 7. Add beef stock and simmer until thickened. 8. Serve sauce over steak.",
+        "rating": 4.8
+      },
+      {
+        "recipe_id": 8,
+        "recipe_url": "https://i.ibb.co/tLGmDjr/Grilled-Salmon-with-Dill-Butter.jpg",
+        "recipe_name": "Grilled Salmon with Dill Butter",
+        "ingredients": [
+          "Salmon fillet",
+          "Olive oil",
+          "Salt and pepper",
+          "Butter",
+          "Fresh dill"
+        ],
+        "cooking_method": "1. Brush salmon with olive oil. 2. Season with salt and pepper. 3. Grill until cooked through. 4. In a small saucepan, melt butter and add fresh dill. 5. Serve dill butter over grilled salmon.",
+        "rating": 4.5
+      },
+      {
+        "recipe_id": 9,
+        "recipe_url": "https://i.ibb.co/6RXSKJ0/Beef-Burger.webp",
+        "recipe_name": "Beef Burger",
+        "ingredients": [
+          "Ground beef",
+          "Burger buns",
+          "Lettuce",
+          "Tomato",
+          "Cheese"
+        ],
+        "cooking_method": "1. Form beef into patties. 2. Grill until cooked through. 3. Assemble burgers with lettuce, tomato, and cheese.",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "chef_id": 4,
+    "chef_name": "Bobby Flay",
+    "years_of_experience": 25,
+    "num_of_recipes": 150,
+    "likes": 8000,
+    "chef_picture": "https://i.ibb.co/sWpn093/Bobby-Flay.jpg",
+    "recipes": [
+      {
+        "recipe_id": 10,
+        "recipe_url": "https://i.ibb.co/fQB39V1/Barbecue-Pork-Ribs.jpg",
+        "recipe_name": "Barbecue Pork Ribs",
+        "ingredients": [
+          "Pork ribs",
+          "Barbecue sauce",
+          "Brown sugar",
+          "Paprika",
+          "Garlic powder",
+          "Onion powder",
+          "Salt and pepper"
+        ],
+        "cooking_method": "1. Preheat oven to 275°F. 2. Season ribs with paprika, garlic powder, onion powder, salt and pepper. 3. Wrap ribs tightly in foil and bake for 2-2.5 hours. 4. Preheat grill to medium-high heat. 5. Baste ribs with barbecue sauce and grill for 10-15 minutes per side. 6. Serve with extra barbecue sauce.",
         "rating": 4.9
+      },
+      {
+        "recipe_id": 11,
+        "recipe_url": "https://i.ibb.co/YNNZqYF/Mac-and-Cheese.jpg",
+        "recipe_name": "Mac and Cheese",
+        "ingredients": [
+          "Elbow macaroni",
+          "Butter",
+          "Flour",
+          "Milk",
+          "Cheddar cheese",
+          "Monterey Jack cheese",
+          "Salt and pepper"
+        ],
+        "cooking_method": "1. Cook macaroni according to package instructions. 2. In a saucepan, melt butter and whisk in flour. 3. Gradually whisk in milk until smooth. 4. Add cheeses and stir until melted. 5. Season with salt and pepper. 6. Stir in cooked macaroni. 7. Serve hot.",
+        "rating": 4.6
+      },
+      {
+        "recipe_id": 12,
+        "recipe_url": "https://i.ibb.co/QXtQjTW/Fried-Chicken.png",
+        "recipe_name": "Fried Chicken",
+        "ingredients": [
+          "Chicken pieces",
+          "Buttermilk",
+          "Flour",
+          "Salt and pepper",
+          "Paprika",
+          "Garlic powder",
+          "Vegetable oil"
+        ],
+        "cooking_method": "1. Soak chicken pieces in buttermilk for at least 30 minutes. 2. In a shallow dish, mix together flour, salt, pepper, paprika and garlic powder. 3. Heat oil in a large skillet over medium-high heat. 4. Dredge chicken pieces in flour mixture and shake off excess. 5. Fry chicken in hot oil until golden brown and cooked through, about 5-7 minutes per side. 6. Drain on paper towels. 7. Serve hot.",
+        "rating": 4.8
+      }
+    ]
+  },
+  {
+    "chef_id": 5,
+    "chef_name": "Ina Garten",
+    "years_of_experience": 25,
+    "num_of_recipes": 150,
+    "likes": 8000,
+    "chef_picture": "https://i.ibb.co/XC3Pvd8/Ina-Garten.jpg",
+    "recipes": [
+      {
+        "recipe_id": 13,
+        "recipe_url": "https://i.ibb.co/Rhv98Hm/Roast-Turkey.jpg",
+        "recipe_name": "Roast Turkey",
+        "ingredients": [
+          "Turkey",
+          "Salt and pepper",
+          "Butter",
+          "Garlic",
+          "Thyme",
+          "Onion",
+          "Carrot",
+          "Celery"
+        ],
+        "cooking_method": "1. Preheat oven to 325 degrees F. 2. Rinse turkey and pat dry. 3. Season with salt and pepper. 4. Melt butter and add garlic and thyme. 5. Brush mixture over turkey. 6. Place onion, carrot, and celery in a roasting pan. 7. Place turkey on top of vegetables. 8. Roast for 3-4 hours or until cooked through. 9. Let turkey rest before carving.",
+        "rating": 4.9
+      },
+      {
+        "recipe_id": 14,
+        "recipe_url": "https://i.ibb.co/j4d93Cf/Macaroni-and-Cheese.jpg",
+        "recipe_name": "Macaroni and Cheese",
+        "ingredients": [
+          "Elbow macaroni",
+          "Butter",
+          "Flour",
+          "Milk",
+          "Cheddar cheese",
+          "Parmesan cheese",
+          "Salt and pepper",
+          "Breadcrumbs"
+        ],
+        "cooking_method": "1. Cook macaroni according to package directions. 2. In a saucepan, melt butter and whisk in flour. 3. Slowly add milk and whisk until thickened. 4. Add cheddar and Parmesan cheeses and whisk until melted. 5. Season with salt and pepper. 6. Add cooked macaroni to the sauce and mix. 7. Transfer to a baking dish and top with breadcrumbs. 8. Bake until golden brown.",
+        "rating": 4.7
+      },
+      {
+        "recipe_id": 15,
+        "recipe_url": "https://i.ibb.co/pyfcmM2/Grilled-Ribeye-Steak.jpg",
+        "recipe_name": "Grilled Ribeye Steak",
+        "ingredients": [
+        "Ribeye steak",
+        "Salt and pepper",
+        "Olive oil",
+        "Rosemary",
+        "Garlic"
+        ],
+        "cooking_method": "1. Season steak with salt and pepper. 2. Brush with olive oil. 3. Grill over high heat until desired doneness. 4. Let rest for a few minutes before slicing. 5. Garnish with rosemary.",
+        "rating": 4.9
+        }
+    ]
+  },
+  {
+    "chef_id": 6,
+    "chef_name": "Samantha Lee",
+    "years_of_experience": 25,
+    "num_of_recipes": 150,
+    "likes": 8000,
+    "chef_picture": "https://i.ibb.co/4tFkPhN/Samantha-Lee.webp",
+    "recipes": [
+      {
+        "recipe_id": 16,
+        "recipe_url": "https://i.ibb.co/NV7Mv8S/Buttermilk-Fried-Chicken.jpg",
+        "recipe_name": "Buttermilk Fried Chicken",
+        "ingredients": [
+          "Chicken pieces",
+          "Buttermilk",
+          "Hot sauce",
+          "Flour",
+          "Paprika",
+          "Cayenne pepper",
+          "Garlic powder",
+          "Salt",
+          "Pepper",
+          "Oil for frying"
+        ],
+        "cooking_method": "1. Marinate chicken in buttermilk and hot sauce. 2. Combine flour, paprika, cayenne pepper, garlic powder, salt, and pepper in a shallow dish. 3. Dredge chicken in flour mixture. 4. Heat oil in a deep skillet or Dutch oven. 5. Fry chicken until golden brown and cooked through.",
+        "rating": 4.9
+      },
+      {
+        "recipe_id": 17,
+        "recipe_url": "https://i.ibb.co/RD9GBDf/Shrimp-Scampi.jpg",
+        "recipe_name": "Shrimp Scampi",
+        "ingredients": [
+          "Shrimp",
+          "Garlic",
+          "Lemon",
+          "White wine",
+          "Butter",
+          "Olive oil",
+          "Parsley",
+          "Salt",
+          "Pepper"
+        ],
+        "cooking_method": "1. Heat butter and olive oil in a large skillet. 2. Add garlic and cook until fragrant. 3. Add shrimp and cook until pink. 4. Add white wine and lemon juice. 5. Season with salt and pepper. 6. Serve with parsley and crusty bread.",
+        "rating": 4.7
+      },
+      {
+        "recipe_id": 18,
+        "recipe_url": "https://i.ibb.co/51StNHm/Lobster-Risotto.jpg",
+        "recipe_name": "Lobster Risotto",
+        "ingredients": [
+        "Lobster",
+        "Arborio rice",
+        "Shallot",
+        "Garlic",
+        "White wine",
+        "Chicken stock",
+        "Parmesan cheese",
+        "Butter",
+        "Chives"
+        ],
+        "cooking_method": "1. Cook lobster in boiling water for 8-10 minutes. 2. Remove meat from shells and set aside. 3. In a separate pot, sauté shallot and garlic in butter. 4. Add Arborio rice and cook until translucent. 5. Add white wine and cook until evaporated. 6. Gradually add chicken stock, stirring constantly, until rice is cooked. 7. Add Parmesan cheese and butter. 8. Serve risotto with lobster meat and chopped chives.",
+        "rating": 4.7
       }
     ]
   }
-
 ]
