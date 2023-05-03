@@ -22,5 +22,5 @@ app.get('/chefs/:id', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`the recipe room is running on ${port}`)
+  console.log(`the oriental kitchen is running on ${port}`)
 })
